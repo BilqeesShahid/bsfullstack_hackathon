@@ -11,7 +11,7 @@ import CategorySelector from "@/components/ui/CategorySelector";
 
 export default async function Home() {
   const heros = await getHero();
-  const products = await getAllProducts();
+
   const categories = await getAllCategories();
 
 
