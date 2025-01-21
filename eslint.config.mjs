@@ -16,6 +16,7 @@ const eslintConfig = [
       "react/no-unescaped-entities":"off",
       "@typescript-eslint/quotes":"off",
       "quotes":[0],
+       "@typescript-eslint/no-unused-vars": "off",
        
   
     }
