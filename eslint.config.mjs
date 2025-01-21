@@ -17,6 +17,7 @@ const eslintConfig = [
       "@typescript-eslint/quotes":"off",
       "quotes":[0],
        "@typescript-eslint/no-unused-vars": "off",
+      "@typescript-eslint/no-explicit-any": "off",
        
   
     }
