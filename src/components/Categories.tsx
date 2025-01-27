@@ -6,13 +6,12 @@ interface Props {
   categories: Category[];
 }
 
-  
- const Categories = ({categories}:{categories:Category[]}) => {
-   return (
-     <div className="py-5">
-      <CategorySelector categories={categories}/>
-     </div>
-   )
- }
- 
- export default Categories
+const Categories: React.FC<Props> = ({ categories }) => {
+  return (
+    <div className="py-5">
+      <CategorySelector categories={categories} />
+    </div>
+  );
+};
+
+export default Categories;
